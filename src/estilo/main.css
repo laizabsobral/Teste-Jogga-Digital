@@ -60,7 +60,19 @@ body {
   position: absolute;
   padding-left: 750px;
   left: 470px;
-  top: -280px;
+  top: -400px;
+  -webkit-animation-name: fade;
+          animation-name: fade;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+.container__whatsapp {
+  position: absolute;
+  padding-left: 850px;
+  left: 480px;
+  top: -480px;
+  margin-top: -120px;
   -webkit-animation-name: fade;
           animation-name: fade;
   -webkit-animation-duration: 1s;
