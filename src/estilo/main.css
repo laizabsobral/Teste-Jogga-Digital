@@ -2,6 +2,7 @@
 
 .header {
   width: 100%;
+  margin: auto;
 }
 .container__slider {
   background-color: #F3DC89;
@@ -193,9 +194,30 @@
 body {
   background: rgb(230, 228, 228);
 }
-.container_placa {
- background-color: black;
- height: 70px;
- width: 70px;
+.box {
+ background: black;
+ height: 160px;
+ width: 330px;
+ margin-top: -10px;
+}
+
+.box h1 {
+  color: rgb(243, 206, 39);
+  font-family: 'Quicksand' ;
+  font-size: 19px;
+  text-align: right;
+  padding: 45px;
+}
+
+.box__texto {
+  color: black;
+  text-align: justify;
+  padding-left: 380px;
+
+}
+
+.box__texto p {
+ margin-top: -100px;
 }
 /*# sourceMappingURL=main.css.map */
+
