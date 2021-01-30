@@ -1,11 +1,13 @@
-body {
-  margin: auto;
-}
 
+
+.header {
+  width: 100%;
+}
 .container__slider {
   background-color: #F3DC89;
   width: 1920px;
   height: 768px;
+
 }
 
 .container__slider img {
@@ -19,6 +21,78 @@ body {
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
 }
+
+.form {
+  position: relative;
+  margin-top: -590px;
+  left: 1250px;
+  padding: 150px;
+  width: 230px;
+  height: 180px;
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+  -webkit-animation-name: fade;
+  animation-name: fade;
+-webkit-animation-duration: 1s;
+  animation-duration: 1s;
+
+}
+
+
+.label {
+  position: relative;
+  right: 150px;
+  margin-top: -150px;
+  width: 530px;
+  height: 150px;
+  border-radius: 5px;;
+  background-color: rgb(46, 45, 45);
+}
+ h4 {
+   padding-top: 20px;
+   left: 26px;
+  position: absolute;
+  color: black;
+  font-size: 16px;
+  text-align: left;
+}
+
+.font {
+  font-size: 16px;
+  padding-top: 160px;
+ margin-bottom: 15px;
+ margin-left: 30px;
+ display: block;
+}
+
+.email {
+  margin-bottom: 15px;
+  margin-left: 30px;
+  display: block;
+  padding-top: 10px;
+}
+.telefone {
+  margin-bottom: 15px;
+  margin-left: 30px;
+  display: block;
+  padding-top:10px;
+}
+
+
+.formulario__submit {
+  background: rgb(55, 134, 238);
+  color: white;
+  cursor: pointer;
+  margin-bottom: -80px;
+  margin-left: 380px;
+  height: 40px;
+  width: 100px;
+  font-size: 16px;
+}
+
+
+
 
 @-webkit-keyframes fade {
   from {
@@ -92,7 +166,8 @@ body {
 
 .container__text {
   position: absolute;
-  padding-left: 480px;
+  padding-left: 490px;
+  margin-left: 40px;
   padding-top: 220px;
   font-family: 'Quicksand';
   line-height: 45px;
@@ -111,5 +186,16 @@ body {
   padding: -50px;
   margin-top: -70px;
   margin-left: -100px;
+}
+
+/*corpo */
+
+body {
+  background: rgb(230, 228, 228);
+}
+.container_placa {
+ background-color: black;
+ height: 70px;
+ width: 70px;
 }
 /*# sourceMappingURL=main.css.map */
