@@ -92,4 +92,12 @@ body {
   font-size: 17px;
   line-height: 30px;
 }
+
+ .redes-sociais{
+  float: left;
+  padding-left: -80px;
+  padding: -50px;
+  margin-top: -70px;
+  margin-left: -100px;
+}
 /*# sourceMappingURL=main.css.map */

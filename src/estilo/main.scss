@@ -2,15 +2,19 @@ $cordefundo: #F3DC89;
 
 
 body {
-  margin: auto;
+ 
 }
 
+
+
 .container__slider {
+    position: absolute;
     background-color: $cordefundo;
     width: 1920px;
     height: 768px;
 
-    img {
+ .mulher {
+        display: flex;
         width: 446px;
         height: 642px;
         right: 40px;
@@ -35,38 +39,11 @@ body {
 
 
 
-.container__logo {
-    position: absolute;
-    margin-top: -270px;
-    padding-left: 40px;
-    animation-name: fade;
-    animation-duration: 2s;
-}
-
-.container__telefones {
-    position: absolute;
-    padding-left: 750px;
-    left: 470px;
-    top: -280px;
-    animation-name: fade;
-    animation-duration: 2s;
-
-}
-
-.container__whatsapp {
-    position: absolute;
-    padding-left: 840px;
-    left: 630px;
-    top: -280px;
-    animation-name: fade;
-    animation-duration: 2s;
-}
-
 .container__text {
     position: absolute;
     font-family: 'Quicksand', sans-serif;
-    
 
+    
     h1{ 
     padding-left:  480px;
     padding-top: 220px;
@@ -79,17 +56,26 @@ body {
         font-size: 16px;
         line-height: 30px;
     }
-    
+
+   .redes-sociais{
+    float: left;
+    padding-left: -80px;
+    padding: -50px;
+    margin-top: -70px;
+    margin-left: -100px;
+}
+
+.container__logo {
+    position: absolute;
+    margin-top: -270px;
+    padding-left: 40px;
+    animation-name: fade;
+    animation-duration: 2s;
 }
 
 
-.seta {
-position: absolute;
-padding-top: 30px;
-}
-#esquerda {
-    padding-top: 30px;
 
-}
 
-}
+
+
+
