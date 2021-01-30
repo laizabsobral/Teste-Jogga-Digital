@@ -1,5 +1,6 @@
 $cordefundo: #F3DC89;
 
+
 body {
   margin: auto;
 }
@@ -16,7 +17,7 @@ body {
         padding-left: 60px;
         margin-top: 125px;
         animation-name: fade;
-        animation-duration: 1s;
+        animation-duration: 2s;
     }
 }
 
@@ -37,7 +38,7 @@ body {
     margin-top: -270px;
     padding-left: 40px;
     animation-name: fade;
-    animation-duration: 1s;
+    animation-duration: 2s;
 }
 
 .container__telefones {
@@ -46,7 +47,7 @@ body {
     left: 470px;
     top: -280px;
     animation-name: fade;
-    animation-duration: 1s;
+    animation-duration: 2s;
 
 }
 
@@ -56,19 +57,22 @@ body {
     left: 630px;
     top: -280px;
     animation-name: fade;
-    animation-duration: 1s;
+    animation-duration: 2s;
 }
 
 .container__text {
-    position:absolute;
+    position: absolute;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+
+    h1{ 
     padding-left:  480px;
     padding-top: 220px;
-    font-family: 'Quicksand';
     line-height: 45px;
 
+    }
+    
     h2 {
-        font-family: 'Quicksand';
-        position: absolute;
         font-size: 17px;
         line-height: 30px;
     }
