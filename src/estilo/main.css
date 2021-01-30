@@ -1,9 +1,86 @@
 body {
-  background-color: white;
+  margin: auto;
 }
-.container {
-    width: 1920;
-    height: 768;
-    background-color: #F3DC89;
+
+.container__slider {
+  background-color: #F3DC89;
+  width: 1920px;
+  height: 768px;
+}
+
+.container__slider img {
+  width: 446px;
+  height: 642px;
+  right: 40px;
+  padding-left: 60px;
+  margin-top: 125px;
+  -webkit-animation-name: fade;
+          animation-name: fade;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+.container__logo {
+  position: absolute;
+  margin-top: -270px;
+  padding-left: 40px;
+  -webkit-animation-name: fade;
+          animation-name: fade;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+.container__telefones {
+  position: absolute;
+  padding-left: 750px;
+  left: 470px;
+  top: -280px;
+  -webkit-animation-name: fade;
+          animation-name: fade;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+.container__whatsapp {
+  position: absolute;
+  padding-left: 840px;
+  left: 630px;
+  top: -280px;
+  -webkit-animation-name: fade;
+          animation-name: fade;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+.container__text {
+  position: absolute;
+  padding-left: 480px;
+  padding-top: 220px;
 }
 /*# sourceMappingURL=main.css.map */

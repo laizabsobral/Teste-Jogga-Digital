@@ -20,6 +20,7 @@ body {
     }
 }
 
+
 @keyframes fade {
     from {
         opacity: 0;
@@ -29,4 +30,39 @@ body {
         opacity: 1;
         transform: scale(1);
     }
+}
+
+.container__logo {
+    position: absolute;
+    margin-top: -270px;
+    padding-left: 40px;
+    animation-name: fade;
+    animation-duration: 1s;
+}
+
+.container__telefones {
+    position: absolute;
+    padding-left: 750px;
+    left: 470px;
+    top: -280px;
+    animation-name: fade;
+    animation-duration: 1s;
+
+}
+
+.container__whatsapp {
+    position: absolute;
+    padding-left: 840px;
+    left: 630px;
+    top: -280px;
+    animation-name: fade;
+    animation-duration: 1s;
+}
+
+.container__text {
+    position:absolute;
+    padding-left:  480px;
+    padding-top: 220px;
+
+
 }
