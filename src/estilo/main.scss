@@ -1,10 +1,17 @@
+$cordefundo: #F3DC89;
 
 body {
-    background-color: white;
+  margin: auto;
 }
 
 .container__slider {
-    width: 1920;
-    height: 768;
-    background-color: #F3DC89;
+    background-color: $cordefundo;
+    width: 1920px;
+    height: 768px;
+
+    img {
+        width: 446px;
+        height: 642px;
+        right: 25px;
+    }
 }
