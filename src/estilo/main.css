@@ -1,9 +1,4 @@
 
-
-.header {
-  width: 100%;
-  margin: auto;
-}
 .container__slider {
   background-color: #F3DC89;
   width: 1920px;
@@ -54,7 +49,7 @@
    padding-top: 20px;
    left: 26px;
   position: absolute;
-  color: black;
+  color: rgb(255, 198, 42);
   font-size: 16px;
   text-align: left;
 }
@@ -92,6 +87,13 @@
   font-size: 16px;
 }
 
+.acessorio img {
+  position: relative;
+  margin-top: -150px;
+  padding-left: 460px;
+
+  
+}
 
 
 
@@ -192,7 +194,7 @@
 /*corpo */
 
 body {
-  background: rgb(230, 228, 228);
+  background: #F8F7F2;
 }
 .box {
  background: black;
@@ -218,6 +220,46 @@ body {
 
 .box__texto p {
  margin-top: -100px;
+ font-size: 18px;
 }
+
+.centralizar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills { 
+  padding: 55px;
+  padding-top: -30px;
+  display: flex; 
+  flex-direction: column;
+  width: 200px;
+  align-items: center; justify-content: center;
+  }
+   .icone-skills{ 
+  display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #FFFFFF;
+   border-radius: 50%;
+  }
+  
+   .icone-mensagem{ 
+  margin-top: 10px;
+   text-align: center; text-transform: uppercase;
+   font-weight: 500; 
+  font-size: 9pt;
+  } 
+  
+  .icones-row{ margin-top: 50px;}
+
+  .container__servicos {
+    background: white;
+    height: 4282px;
+    width: 1920px;
+  }
+
+  .
 /*# sourceMappingURL=main.css.map */
 
