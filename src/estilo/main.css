@@ -193,6 +193,7 @@
 
 /*corpo */
 
+
 body {
   background: #F8F7F2;
 }
@@ -256,7 +257,7 @@ body {
 
   .container__fundo {
     background: white;
-    height: 4282px;
+    height: 3200px;
     width: 1920px;
   }
 
@@ -407,6 +408,7 @@ body {
     height: 755px;
     width: 1500px;
   }
+
   
   .container__marcas p {
     width: 800px;
@@ -484,10 +486,33 @@ body {
 
 }
 
+.container__avisos {
+   
+  background: #030303;
+  position: relative;
+    margin-top: 780px;
+  height: 300px;
+  width: 1500px;
+}
+
+.container__avisos img {
+  position: relative;
+  float: right;
+  padding-right: 120px;
+}
+
+.container__avisos h1 {
+  padding-top: 80px;
+  padding-left: 200px;
+  color: #ffffff;
+  font-family: 'Quicksand';
+}
+
+
 /*footer*/
 
 footer {
-  width: 100%;
+  width: 1600px;
   height: 7.5rem;
   background: #231f20;
   color: #707070;
@@ -518,8 +543,6 @@ footer {
   margin-bottom: -.9rem;
 }
 
-footer img {
-  height: 1.875rem;
-}
+
  /*# sourceMappingURL=main.css.map */
 
