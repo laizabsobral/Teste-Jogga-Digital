@@ -254,12 +254,152 @@ body {
   
   .icones-row{ margin-top: 50px;}
 
-  .container__servicos {
+  .container__fundo {
     background: white;
     height: 4282px;
     width: 1920px;
   }
 
-  .
-/*# sourceMappingURL=main.css.map */
+  .container__servicos h1 {
+  
+    background: rgb(255, 218, 55);
+    height: 330px;
+    width: 1600px;
+    padding-left: 140px;
+    text-align: left;
+    
+  }
+
+  .container__servicos p {
+    font-size: 26px;
+    text-align: left;
+    padding: 90px;
+    padding-left: 40px;
+
+  }
+ 
+
+  
+  .container__servicos {
+    position: relative;
+    padding: 100px 20px 20px 30px;
+  }
+
+  
+
+
+  .slide {
+    margin-top: 50px;
+    margin-right: 60px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #231f20;
+    width: 65.625rem;
+    height: auto;
+  }
+  
+  .parte1 {
+    text-align: left;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    float: right;
+    width: 31.563rem;
+    margin-left: 20px;
+    -webkit-box-shadow: 2px 2px  grey;
+            box-shadow: 2px 2px grey;
+  }
+  
+  .parte2 {
+    text-align: left;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    float: center;
+    height: 230px;
+    width: 31.563rem;
+    margin-right: 20px;
+    -webkit-box-shadow: 2px 2px grey;
+            box-shadow: 2px 2px grey;
+  }
+  
+  .parte1text {
+    padding: 2rem;
+    
+  }
+  
+  .parte1text h3 {
+    text-align: left;
+    padding-bottom: .8rem;
+  }
+  
+  .parte2text {
+    padding: 2rem;
+  }
+  
+  .parte2text h3 {
+    padding-bottom: .8rem;
+    text-align: left;
+  }
+  
+  .parte1 img {
+    width: 70px;
+    height: 13.75rem;
+  }
+  
+  .parte2 img {
+    width: 70px ;
+    height: 13.75rem;
+  }
+  
+  .slide img {
+    width: 170px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+      transition: all 0.10s ease;
+  }
+  
+  .dots {
+    margin-top: 3.5rem;
+    margin-left: -60px;
+    width: 65.625rem;
+    height: 6.25rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  
+  .ball {
+    cursor: pointer;
+    height: 1rem;
+    width: 1rem;
+    margin-top: 2.5rem;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    -webkit-transition: background-color 0.6s ease;
+    transition: background-color 0.6s ease;
+  }
+  
+  .ball:hover {
+    background: #ff8a04;
+  }
+  
+ 
+
+ /*# sourceMappingURL=main.css.map */
 
