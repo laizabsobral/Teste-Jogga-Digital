@@ -468,7 +468,21 @@ body {
   margin-top: -150px;
 }
 
+.container__vantagens--text {
+  float: right;
+  text-align: left;
+}
 
+.container__vantagens--text img {
+  margin-top: 5px;
+  align-items: right;
+
+}
+
+.container__vantagens--text h3 p {
+  margin-left: -80px;
+
+}
 
 /*footer*/
 
