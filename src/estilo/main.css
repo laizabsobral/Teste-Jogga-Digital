@@ -462,6 +462,12 @@ body {
   padding-left: 190px;
 }
 
+.container__vantagens img {
+  float: left;
+  margin-left: -176px;
+  margin-top: -150px;
+}
+
 
 
 /*footer*/
