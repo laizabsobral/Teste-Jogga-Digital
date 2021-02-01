@@ -50,27 +50,29 @@
         <img src="./src/img/mulher01.png" class="mulher"> </img>
 
         <div class="form">
+            <form action="" id="formulario" method="POST" name="formulario" onsubmit="return validaForm(this);"> 
             <div class="label"> 
                <h4>SOLUÇÕES PERSONALIZADAS PARA SUA <br> EMPRESA. FALE CONOSCO.</h4>
 
                <div class="font"> NOME </div>
                <center>
-               <input type="text"  name="" style="height: 30px; width: 450px;">
+               <input type="text"  id="nome" name="nome" style="height: 30px; width: 450px;">
             </center>
           
                <div class="email"> E-MAIL </div>
                <center> 
-               <input type="text"  name="" style="height: 30px; width: 450px;">
+               <input type="text"  name="email" style="height: 30px; width: 450px;">
             </center>
 
             
                <div class="telefone"> TELEFONE </div>
                <center>
-               <input type="text"  name="" style="height: 30px; width: 450px;">
+               <input type="text"  name="telefone" style="height: 30px; width: 450px;">
             </center>
                <br>
                <br>
-               <input type="submit" class="formulario__submit">
+               <input name="submit" type="submit" class="formulario__submit" value="enviar">
+            </form>
 
                <div class="acessorio">
                 <img src="src/img/detalhe.png">
@@ -246,12 +248,12 @@
             </div>
         </div>
         <div class="dots">
-            <span class="ball" id="r1" checked></span>
-            <span class="ball" id="r2" ></span>
-            <span class="ball" id="r3"></span>
-            <span class="ball" id="r4"></span>
-            <span class="ball" id="r5"></span>
-            <span class="ball" id="r6"></span>
+            <span class="ball" onclick="currentSlide(1)"></span>
+            <span class="ball" onclick="currentSlide(2)" ></span>
+            <span class="ball" onclick="currentSlide(3)"></span>
+            <span class="ball" onclick="currentSlide(4)"></span>
+            <span class="ball" onclick="currentSlide(5)"></span>
+            <span class="ball" onclick="currentSlide(6)"></span>
         </div>
     
 
@@ -355,5 +357,23 @@
  <p> Política de privacidade</p> 
 </footer>
 
+<script type="text/javascript">
+    /* Validar dados */
+    function validaForm(frm) {
+        if(frm.nome.value =="" || frm.nome.value ==null || frm.nome.value.lenght<3) {
+            alert("Por favor, indique seu nome");
+            frm.nome.focus()
+            return false;
+        }
+
+        if(frm.email.value.indexOf("@")== -1 || frm.email.valueOf.indexOf(".") == -1 ||
+        frm.email.value =="" || frm.email.value == null) {
+            alert("Por favor, indique um e-mail válido");
+            frm.email.focus()
+            return false;
+        }
+      
+    }
+</script>
 </body>
 </html>
